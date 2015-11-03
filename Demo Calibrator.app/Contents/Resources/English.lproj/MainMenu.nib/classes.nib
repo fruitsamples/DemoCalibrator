@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {back = id; next = id; }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_back" = NSButton; 
+                "_background" = BackView; 
+                "_box" = NSBox; 
+                "_next" = NSButton; 
+                "_title" = NSTextField; 
+                "_toc" = TocView; 
+                "_window" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = BackView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = CompareView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = TocView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

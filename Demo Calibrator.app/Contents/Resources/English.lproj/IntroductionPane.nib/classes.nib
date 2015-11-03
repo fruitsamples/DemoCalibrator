@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = IntroductionPane; LANGUAGE = ObjC; SUPERCLASS = PaneController; }, 
+        {
+            CLASS = PaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_view" = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

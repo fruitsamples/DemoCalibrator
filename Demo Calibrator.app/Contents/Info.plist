@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Demo Calibrator</string>
+	<key>CFBundleGetInfoString</key>
+	<string>0.8, Copyright 2003 Apple Computer, Inc.</string>
+	<key>CFBundleIconFile</key>
+	<string>Calibrator.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.DemoCalibrator</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Demo Calibrator</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.8</string>
+	<key>CFBundleSignature</key>
+	<string>dcal</string>
+	<key>CFBundleVersion</key>
+	<string>0.8</string>
+	<key>CSDisplayCalibrator</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>PaneList</key>
+	<array>
+		<string>IntroductionPane</string>
+		<string>NamePane</string>
+		<string>NameAsciiPane</string>
+		<string>BuildingPane</string>
+		<string>ConclusionPane</string>
+	</array>
+</dict>
+</plist>

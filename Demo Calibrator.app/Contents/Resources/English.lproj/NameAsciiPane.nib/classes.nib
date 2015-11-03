@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NameAsciiPane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_name" = NSTextField; "_nameAscii" = RomanTextField; }; 
+            SUPERCLASS = PaneController; 
+        }, 
+        {
+            CLASS = PaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_initialFirstResponder" = NSView; "_view" = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = RomanTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }
+    ); 
+    IBVersion = 1; 
+}

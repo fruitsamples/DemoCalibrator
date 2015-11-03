@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NamePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_name" = NSTextField; "_note" = NSTextField; }; 
+            SUPERCLASS = PaneController; 
+        }, 
+        {
+            CLASS = PaneController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_initialFirstResponder" = NSView; "_view" = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
