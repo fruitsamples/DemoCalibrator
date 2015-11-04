@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2E464E905D9833300369F64 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F693A2FD0388B5BB011EC3EF /* AppDelegate.h */; };
+		D2E464EA05D9833300369F64 /* BackView.h in Headers */ = {isa = PBXBuildFile; fileRef = F693A3010388B877011EC3EF /* BackView.h */; };
+		D2E464EB05D9833300369F64 /* PaneController.h in Headers */ = {isa = PBXBuildFile; fileRef = F693A3110388DDAB011EC3EF /* PaneController.h */; };
+		D2E464EC05D9833300369F64 /* TocView.h in Headers */ = {isa = PBXBuildFile; fileRef = F693A336038A3BF3011EC3EF /* TocView.h */; };
+		D2E464ED05D9833300369F64 /* IntroductionPane.h in Headers */ = {isa = PBXBuildFile; fileRef = F6897505038B833701B5FD6B /* IntroductionPane.h */; };
+		D2E464EE05D9833300369F64 /* ConclusionPane.h in Headers */ = {isa = PBXBuildFile; fileRef = F6897509038B858D01B5FD6B /* ConclusionPane.h */; };
+		D2E464EF05D9833300369F64 /* Assistant.h in Headers */ = {isa = PBXBuildFile; fileRef = F54011490398B3A9019FFE73 /* Assistant.h */; };
+		D2E464F005D9833300369F64 /* NamePane.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B073F803A960E401C332D3 /* NamePane.h */; };
+		D2E464F105D9833300369F64 /* NameAsciiPane.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B073FC03A960F501C332D3 /* NameAsciiPane.h */; };
+		D2E464F205D9833300369F64 /* BuildingPane.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B0740603A9673301C332D3 /* BuildingPane.h */; };
+		D2E464F405D9833300369F64 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		D2E464F505D9833300369F64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		D2E464F605D9833300369F64 /* Calibrator.icns in Resources */ = {isa = PBXBuildFile; fileRef = F693A30F0388D3CB011EC3EF /* Calibrator.icns */; };
+		D2E464F705D9833300369F64 /* bullet.tif in Resources */ = {isa = PBXBuildFile; fileRef = F693A340038A5400011EC3EF /* bullet.tif */; };
+		D2E464F805D9833300369F64 /* IntroductionPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A9DCFC03CFFE4A016F9512 /* IntroductionPane.nib */; };
+		D2E464F905D9833300369F64 /* BuildingPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A9DD0203CFFED0016F9512 /* BuildingPane.nib */; };
+		D2E464FA05D9833300369F64 /* ConclusionPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A9DD0403CFFED0016F9512 /* ConclusionPane.nib */; };
+		D2E464FB05D9833300369F64 /* NameAsciiPane.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A9DD0803CFFED0016F9512 /* NameAsciiPane.nib */; };
+		D2E464FC05D9833300369F64 /* NamePane.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A9DD0A03CFFED0016F9512 /* NamePane.nib */; };
+		D2E464FD05D9833300369F64 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5DE662D03DBEA0E01A87B34 /* Localizable.strings */; };
+		D2E464FF05D9833300369F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		D2E4650005D9833300369F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F693A2FE0388B5BB011EC3EF /* AppDelegate.m */; };
+		D2E4650105D9833300369F64 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F693A3020388B877011EC3EF /* BackView.m */; };
+		D2E4650205D9833300369F64 /* PaneController.m in Sources */ = {isa = PBXBuildFile; fileRef = F693A3120388DDAB011EC3EF /* PaneController.m */; };
+		D2E4650305D9833300369F64 /* TocView.m in Sources */ = {isa = PBXBuildFile; fileRef = F693A337038A3BF3011EC3EF /* TocView.m */; };
+		D2E4650405D9833300369F64 /* IntroductionPane.m in Sources */ = {isa = PBXBuildFile; fileRef = F6897506038B833701B5FD6B /* IntroductionPane.m */; };
+		D2E4650505D9833300369F64 /* ConclusionPane.m in Sources */ = {isa = PBXBuildFile; fileRef = F689750A038B858D01B5FD6B /* ConclusionPane.m */; };
+		D2E4650605D9833300369F64 /* Assistant.m in Sources */ = {isa = PBXBuildFile; fileRef = F540114A0398B3A9019FFE73 /* Assistant.m */; };
+		D2E4650705D9833300369F64 /* NamePane.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B073F903A960E401C332D3 /* NamePane.m */; };
+		D2E4650805D9833300369F64 /* NameAsciiPane.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B073FD03A960F501C332D3 /* NameAsciiPane.m */; };
+		D2E4650905D9833300369F64 /* BuildingPane.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B0740703A9673301C332D3 /* BuildingPane.m */; };
+		D2E4650B05D9833300369F64 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D2E4650C05D9833300369F64 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B07B0C03B0218101C332D3 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D2E4650E05D9833300369F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		D2E4650F05D9833300369F64 /* Demo Calibrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Calibrator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54011490398B3A9019FFE73 /* Assistant.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Assistant.h; sourceTree = "<group>"; };
+		F540114A0398B3A9019FFE73 /* Assistant.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Assistant.m; sourceTree = "<group>"; };
+		F5A9DCFD03CFFE4A016F9512 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/IntroductionPane.nib; sourceTree = "<group>"; };
+		F5A9DD0303CFFED0016F9512 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/BuildingPane.nib; sourceTree = "<group>"; };
+		F5A9DD0503CFFED0016F9512 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/ConclusionPane.nib; sourceTree = "<group>"; };
+		F5A9DD0903CFFED0016F9512 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/NameAsciiPane.nib; sourceTree = "<group>"; };
+		F5A9DD0B03CFFED0016F9512 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Resources/English.lproj/NamePane.nib; sourceTree = "<group>"; };
+		F5B073F803A960E401C332D3 /* NamePane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NamePane.h; sourceTree = "<group>"; };
+		F5B073F903A960E401C332D3 /* NamePane.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NamePane.m; sourceTree = "<group>"; };
+		F5B073FC03A960F501C332D3 /* NameAsciiPane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NameAsciiPane.h; sourceTree = "<group>"; };
+		F5B073FD03A960F501C332D3 /* NameAsciiPane.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NameAsciiPane.m; sourceTree = "<group>"; };
+		F5B0740603A9673301C332D3 /* BuildingPane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BuildingPane.h; sourceTree = "<group>"; };
+		F5B0740703A9673301C332D3 /* BuildingPane.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BuildingPane.m; sourceTree = "<group>"; };
+		F5B07B0C03B0218101C332D3 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F5DE662E03DBEA0E01A87B34 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6897505038B833701B5FD6B /* IntroductionPane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IntroductionPane.h; sourceTree = "<group>"; };
+		F6897506038B833701B5FD6B /* IntroductionPane.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = IntroductionPane.m; sourceTree = "<group>"; };
+		F6897509038B858D01B5FD6B /* ConclusionPane.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ConclusionPane.h; sourceTree = "<group>"; };
+		F689750A038B858D01B5FD6B /* ConclusionPane.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ConclusionPane.m; sourceTree = "<group>"; };
+		F693A2FD0388B5BB011EC3EF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F693A2FE0388B5BB011EC3EF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F693A3010388B877011EC3EF /* BackView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BackView.h; sourceTree = "<group>"; };
+		F693A3020388B877011EC3EF /* BackView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
+		F693A30F0388D3CB011EC3EF /* Calibrator.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Calibrator.icns; sourceTree = "<group>"; };
+		F693A3110388DDAB011EC3EF /* PaneController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PaneController.h; sourceTree = "<group>"; };
+		F693A3120388DDAB011EC3EF /* PaneController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PaneController.m; sourceTree = "<group>"; };
+		F693A336038A3BF3011EC3EF /* TocView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TocView.h; sourceTree = "<group>"; };
+		F693A337038A3BF3011EC3EF /* TocView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TocView.m; sourceTree = "<group>"; };
+		F693A340038A5400011EC3EF /* bullet.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = bullet.tif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E4650A05D9833300369F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E4650B05D9833300369F64 /* Cocoa.framework in Frameworks */,
+				D2E4650C05D9833300369F64 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F693A2FD0388B5BB011EC3EF /* AppDelegate.h */,
+				F693A2FE0388B5BB011EC3EF /* AppDelegate.m */,
+				F54011490398B3A9019FFE73 /* Assistant.h */,
+				F540114A0398B3A9019FFE73 /* Assistant.m */,
+				F693A3010388B877011EC3EF /* BackView.h */,
+				F693A3020388B877011EC3EF /* BackView.m */,
+				F693A3110388DDAB011EC3EF /* PaneController.h */,
+				F693A3120388DDAB011EC3EF /* PaneController.m */,
+				F693A336038A3BF3011EC3EF /* TocView.h */,
+				F693A337038A3BF3011EC3EF /* TocView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B07B0C03B0218101C332D3 /* Carbon.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4650F05D9833300369F64 /* Demo Calibrator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CalibratorCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				F540114D0398B3DE019FFE73 /* Panes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CalibratorCocoa;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F693A340038A5400011EC3EF /* bullet.tif */,
+				F693A30F0388D3CB011EC3EF /* Calibrator.icns */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				D2E4650E05D9833300369F64 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				F5DE662D03DBEA0E01A87B34 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F540114D0398B3DE019FFE73 /* Panes */ = {
+			isa = PBXGroup;
+			children = (
+				F6897505038B833701B5FD6B /* IntroductionPane.h */,
+				F6897506038B833701B5FD6B /* IntroductionPane.m */,
+				F5A9DCFC03CFFE4A016F9512 /* IntroductionPane.nib */,
+				F5B073F803A960E401C332D3 /* NamePane.h */,
+				F5B073F903A960E401C332D3 /* NamePane.m */,
+				F5A9DD0A03CFFED0016F9512 /* NamePane.nib */,
+				F5B073FC03A960F501C332D3 /* NameAsciiPane.h */,
+				F5B073FD03A960F501C332D3 /* NameAsciiPane.m */,
+				F5A9DD0803CFFED0016F9512 /* NameAsciiPane.nib */,
+				F5B0740603A9673301C332D3 /* BuildingPane.h */,
+				F5B0740703A9673301C332D3 /* BuildingPane.m */,
+				F5A9DD0203CFFED0016F9512 /* BuildingPane.nib */,
+				F6897509038B858D01B5FD6B /* ConclusionPane.h */,
+				F689750A038B858D01B5FD6B /* ConclusionPane.m */,
+				F5A9DD0403CFFED0016F9512 /* ConclusionPane.nib */,
+			);
+			path = Panes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2E464E805D9833300369F64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E464E905D9833300369F64 /* AppDelegate.h in Headers */,
+				D2E464EA05D9833300369F64 /* BackView.h in Headers */,
+				D2E464EB05D9833300369F64 /* PaneController.h in Headers */,
+				D2E464EC05D9833300369F64 /* TocView.h in Headers */,
+				D2E464ED05D9833300369F64 /* IntroductionPane.h in Headers */,
+				D2E464EE05D9833300369F64 /* ConclusionPane.h in Headers */,
+				D2E464EF05D9833300369F64 /* Assistant.h in Headers */,
+				D2E464F005D9833300369F64 /* NamePane.h in Headers */,
+				D2E464F105D9833300369F64 /* NameAsciiPane.h in Headers */,
+				D2E464F205D9833300369F64 /* BuildingPane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2E464E705D9833300369F64 /* Calibrator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A63CE608FDC5C500395C95 /* Build configuration list for PBXNativeTarget "Calibrator" */;
+			buildPhases = (
+				D2E464E805D9833300369F64 /* Headers */,
+				D2E464F305D9833300369F64 /* Resources */,
+				D2E464FE05D9833300369F64 /* Sources */,
+				D2E4650A05D9833300369F64 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calibrator;
+			productInstallPath = /System/Library/ColorSync;
+			productName = CalibratorCocoa;
+			productReference = D2E4650F05D9833300369F64 /* Demo Calibrator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D2A63CEA08FDC5C500395C95 /* Build configuration list for PBXProject "DemoCalibrator" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CalibratorCocoa */;
+			projectDirPath = "";
+			projectRoot = "";
+			shouldCheckCompatibility = 1;
+			targets = (
+				D2E464E705D9833300369F64 /* Calibrator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E464F305D9833300369F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E464F405D9833300369F64 /* MainMenu.nib in Resources */,
+				D2E464F505D9833300369F64 /* InfoPlist.strings in Resources */,
+				D2E464F605D9833300369F64 /* Calibrator.icns in Resources */,
+				D2E464F705D9833300369F64 /* bullet.tif in Resources */,
+				D2E464F805D9833300369F64 /* IntroductionPane.nib in Resources */,
+				D2E464F905D9833300369F64 /* BuildingPane.nib in Resources */,
+				D2E464FA05D9833300369F64 /* ConclusionPane.nib in Resources */,
+				D2E464FB05D9833300369F64 /* NameAsciiPane.nib in Resources */,
+				D2E464FC05D9833300369F64 /* NamePane.nib in Resources */,
+				D2E464FD05D9833300369F64 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E464FE05D9833300369F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E464FF05D9833300369F64 /* main.m in Sources */,
+				D2E4650005D9833300369F64 /* AppDelegate.m in Sources */,
+				D2E4650105D9833300369F64 /* BackView.m in Sources */,
+				D2E4650205D9833300369F64 /* PaneController.m in Sources */,
+				D2E4650305D9833300369F64 /* TocView.m in Sources */,
+				D2E4650405D9833300369F64 /* IntroductionPane.m in Sources */,
+				D2E4650505D9833300369F64 /* ConclusionPane.m in Sources */,
+				D2E4650605D9833300369F64 /* Assistant.m in Sources */,
+				D2E4650705D9833300369F64 /* NamePane.m in Sources */,
+				D2E4650805D9833300369F64 /* NameAsciiPane.m in Sources */,
+				D2E4650905D9833300369F64 /* BuildingPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		F5A9DCFC03CFFE4A016F9512 /* IntroductionPane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A9DCFD03CFFE4A016F9512 /* English */,
+			);
+			name = IntroductionPane.nib;
+			sourceTree = "<group>";
+		};
+		F5A9DD0203CFFED0016F9512 /* BuildingPane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A9DD0303CFFED0016F9512 /* English */,
+			);
+			name = BuildingPane.nib;
+			sourceTree = "<group>";
+		};
+		F5A9DD0403CFFED0016F9512 /* ConclusionPane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A9DD0503CFFED0016F9512 /* English */,
+			);
+			name = ConclusionPane.nib;
+			sourceTree = "<group>";
+		};
+		F5A9DD0803CFFED0016F9512 /* NameAsciiPane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A9DD0903CFFED0016F9512 /* English */,
+			);
+			name = NameAsciiPane.nib;
+			sourceTree = "<group>";
+		};
+		F5A9DD0A03CFFED0016F9512 /* NamePane.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A9DD0B03CFFED0016F9512 /* English */,
+			);
+			name = NamePane.nib;
+			sourceTree = "<group>";
+		};
+		F5DE662D03DBEA0E01A87B34 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5DE662E03DBEA0E01A87B34 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A63CE708FDC5C500395C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					ppc64,
+					x86_64,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = /Library/ColorSync/Calibrators;
+				PRODUCT_NAME = "Demo Calibrator";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				VALID_ARCHS = "ppc64 ppc7400 ppc970 i386 x86_64 ppc";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		D2A63CE808FDC5C500395C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					ppc64,
+					x86_64,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = /Library/ColorSync/Calibrators;
+				PRODUCT_NAME = "Demo Calibrator";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				VALID_ARCHS = "ppc64 ppc7400 ppc970 i386 x86_64 ppc";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D2A63CEB08FDC5C500395C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		D2A63CEC08FDC5C500395C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A63CE608FDC5C500395C95 /* Build configuration list for PBXNativeTarget "Calibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A63CE708FDC5C500395C95 /* Debug */,
+				D2A63CE808FDC5C500395C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A63CEA08FDC5C500395C95 /* Build configuration list for PBXProject "DemoCalibrator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A63CEB08FDC5C500395C95 /* Debug */,
+				D2A63CEC08FDC5C500395C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
